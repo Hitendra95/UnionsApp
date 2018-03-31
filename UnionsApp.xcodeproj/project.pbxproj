@@ -13,6 +13,10 @@
 		DCAEF230206F623D00C82835 /* UnionsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCAEF22E206F623D00C82835 /* UnionsApp.xcdatamodeld */; };
 		DCAEF232206F623D00C82835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAEF231206F623D00C82835 /* Assets.xcassets */; };
 		DCAEF235206F623D00C82835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAEF233206F623D00C82835 /* LaunchScreen.storyboard */; };
+		DCAEF248206F6BFF00C82835 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAEF244206F6BFE00C82835 /* FBSDKLoginKit.framework */; };
+		DCAEF249206F6BFF00C82835 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAEF245206F6BFF00C82835 /* FBSDKCoreKit.framework */; };
+		DCAEF24A206F6BFF00C82835 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAEF246206F6BFF00C82835 /* Bolts.framework */; };
+		DCAEF24B206F6BFF00C82835 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAEF247206F6BFF00C82835 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DCAEF231206F623D00C82835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCAEF234206F623D00C82835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCAEF236206F623D00C82835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAEF244206F6BFE00C82835 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.31.1 (1)/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		DCAEF245206F6BFF00C82835 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.31.1 (1)/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		DCAEF246206F6BFF00C82835 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.31.1 (1)/Bolts.framework"; sourceTree = "<group>"; };
+		DCAEF247206F6BFF00C82835 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.31.1 (1)/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAEF24B206F6BFF00C82835 /* FBSDKShareKit.framework in Frameworks */,
+				DCAEF24A206F6BFF00C82835 /* Bolts.framework in Frameworks */,
+				DCAEF248206F6BFF00C82835 /* FBSDKLoginKit.framework in Frameworks */,
+				DCAEF249206F6BFF00C82835 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +70,10 @@
 			children = (
 				DCAEF227206F623D00C82835 /* AppDelegate.swift */,
 				DCAEF229206F623D00C82835 /* ViewController.swift */,
+				DCAEF246206F6BFF00C82835 /* Bolts.framework */,
+				DCAEF245206F6BFF00C82835 /* FBSDKCoreKit.framework */,
+				DCAEF244206F6BFE00C82835 /* FBSDKLoginKit.framework */,
+				DCAEF247206F6BFF00C82835 /* FBSDKShareKit.framework */,
 				DCAEF22B206F623D00C82835 /* Main.storyboard */,
 				DCAEF231206F623D00C82835 /* Assets.xcassets */,
 				DCAEF233206F623D00C82835 /* LaunchScreen.storyboard */,
